@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.moviesContainer{
+  display: inline-flex;
+  margin-left: 55px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  
+ }
+ 
+ .card{
+   margin-left: 70px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ 
+ .space{
+   margin-left: 69rem;
+ }
+ 
+ 
+ .antMargin{
+   margin-left: -10rem;
+ }
+ 
+ .image{
+   width: 30px;
+   height: 390px;
+ }
+ 
+ .name{
+   text-align: center;
+ }
+ 
+ .icon{
+   width: 25px;
+ }
+ 
+ a{
+   text-decoration: none !important;
+   color: white !important;
+ }
+ 
+ .HomeName{
+   margin-top: 0px !important;
+   color: white !important;
+   margin-left: 10px !important;
+ }
+ 
+ .filterColor{
+   color: black !important;
+ }
+ 
+ .movieTitle{
+   margin-bottom: 15px !important;
+   text-align: center;
+   font-weight: bold !important;
+ }
+ 
+ .movieYear{
+   margin-bottom: -5px !important;
+ }
+ 
+ .movieDir{
+   margin-bottom: -5px !important;
+ }
+ .card-body{
+   margin-bottom: -5px !important;
+ }
+ .navBar{
+   width: 100%;
+ }
+ .me-auto{
+   margin-right: 0 !important;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .navbar>.container{
+   justify-content: initial !important;
+ }
+ 
+ 
+ @media (min-width: 768px) { /* Mobile */
+  
+     .imgMob{
+       display: none;
+       
+     }
+   }
+ 
+ @media (max-width: 768px) { /* Mobile */
+  
+   .moviesContainer{
+     width: 100% !important;
+     margin-left: -30px;
+   }
+ 
+   .space{
+     margin-left: 0rem !important;
+   }
+   .me-auto{
+     margin-right: 0px !important;
+     width: 30% !important;
+   }
+  
+   .antMargin{
+     margin-left: 10px !important;
+   }
+   .img{
+    display: none;
+   }
+ 
+   .navbar-expand .navbar-nav .dropdown-menu{
+     left : -50px !important;
+   }
+   .imgMob{
+     margin-left: 40px !important;
+   }
+ }
