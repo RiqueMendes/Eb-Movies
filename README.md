@@ -1,4 +1,4 @@
-Projeto realizado em React de uma aplicação que contém algum dos meus filmes favoritos, responsivo para Mobile.
+Projeto realizado em React de uma aplicação que contém algum dos meus filmes favoritos.
 
 
 Versão Web:
