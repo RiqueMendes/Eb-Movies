@@ -1,4 +1,4 @@
-Projeto realizado em React de uma aplicação que contém algum dos meus filmes favoritos.
+Projeto realizado em React de uma aplicação que contém alguns dos meus filmes favoritos.
 
 
 Link :  https://eb-movies-20c44.web.app/
